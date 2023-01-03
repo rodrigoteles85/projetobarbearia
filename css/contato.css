@@ -14,13 +14,13 @@
 }
 
 .contato__info-email {
-  color: var(--azul);
+  color: var(--preto);
   display: block;
   padding-bottom: 1em;
 }
 
 .contato__info-telefone {
-  color: var(--azul);
+  color: var(--preto);
 }
 
 .contato__titulo {

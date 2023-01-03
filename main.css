@@ -1,7 +1,6 @@
 
 @import url(/css/reset.css);
 @import url(/css/cabecalho.css);
-@import url(/css/conteudo.css);
 @import url(/css/rodape.css);
 
 :root {
@@ -22,6 +21,16 @@
 
 body {
   font-family: var(--font-principal);
-  /* background-color: var(--color-action); */
   font-size: 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.servicos__titulo,
+.contato__titulo {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1em 0;
 }

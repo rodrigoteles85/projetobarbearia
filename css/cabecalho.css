@@ -1,14 +1,20 @@
 
 .cabecalho {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding: 1em;
 }
 
-.cabecalho__titulo {
-  font-family: var(--font-primary);
-  font-size: 24px;
+.cabecalho__botao--menu {
+  padding: 1em;
+  background-color: var(--branco);
+  border-radius: 50%;
 }
 
 .cabecalho__menu {

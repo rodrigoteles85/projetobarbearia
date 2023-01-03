@@ -1,0 +1,36 @@
+
+@import url(/css/cabecalho.css);
+
+body {
+  background-image: url(/img/jeppe-monster-CcjIK1h5jRk-unsplash\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.destaque {
+  background-color: var(--branco);
+  padding: 1em;
+  border-radius: 25%;
+  border: 2px solid var(--preto);
+  margin-bottom: 100px;
+}
+
+.destaque__imagem {
+  width: 24px;
+}
+
+.destaque__titulo {
+  font-family: var(--font-secundary);
+  font-size: 34px;
+}

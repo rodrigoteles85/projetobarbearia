@@ -1,0 +1,56 @@
+
+.conteudo {
+  text-align: center;
+  width: 100vw;
+  top: 0;
+  height: calc(100vh - 80px);
+}
+
+.contato {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 50%;
+}
+
+.contato__info-email {
+  color: var(--azul);
+  display: block;
+  padding-bottom: 1em;
+}
+
+.contato__info-telefone {
+  color: var(--azul);
+}
+
+.contato__titulo {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1em 0;
+}
+
+.contato__info-email::before {
+  display: block;
+  content: '✉';
+  padding-bottom: 0.5em;
+  margin-right: 0.5em;
+}
+
+.contato__info-telefone::before {
+  display: block;
+  content: '☎';
+  padding-bottom: 0.5em;
+  margin-right: 0.5em;
+}
+
+.contato__social-lista {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social__lista-link img {
+  width: 35px;
+}

@@ -1,8 +1,7 @@
 let menuMobile = document.querySelector('.cabecalho__menu')
 let botaoMenu = document.querySelector('.cabecalho__botao')
-let click = document.querySelectorAll('.cabecalho__menu-link')
 
-let aberto = false
+let aberto = false 
 
 botaoMenu.onclick = function abrirOuFecharMenu() {
   if (aberto === true) {

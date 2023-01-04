@@ -18,7 +18,7 @@ body {
 
 .destaque {
   background-color: var(--branco);
-  padding: 1em;
+  padding: 0.5em;
   border-radius: 25%;
   border: 2px solid var(--preto);
   margin-bottom: 100px;

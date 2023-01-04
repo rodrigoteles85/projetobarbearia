@@ -41,4 +41,10 @@
 .cabecalho__menu-link {
   text-transform: uppercase;
   color: var(--color-principal);
+  padding-bottom: 0.2em;
+  transition: ease-in;
+}
+
+.cabecalho__menu-link:hover {
+  border-bottom: 1px solid var(--branco)
 }

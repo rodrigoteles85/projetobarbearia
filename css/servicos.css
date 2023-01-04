@@ -9,6 +9,11 @@
   border-radius: 8px;
   margin: 2em auto;
   padding: 1em 2em;
+  transition: 500ms ease-in;
+}
+
+.servicos__produtos-lista:hover {
+  font-size: 22px;
 }
 
 .imagem-descricao {
@@ -21,6 +26,6 @@
 }
 
 .produto-preco {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
 }

@@ -32,30 +32,25 @@
 }
 
 .contato__info-telefone {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: 0 auto;
   font-size: 22px;
+  background-color: var(--color-action);
+  padding: 1em 0.5em;
+  border-radius: 10px;
 }
 
 .contato__info-telefone::before {
-  display: block;
   content: '☎';
-  padding-bottom: 0.5em;
-  margin-right: 0.5em;
+  padding-right: 0.5rem;
 }
 
 .contato__social-lista {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-.social__lista-item {
-  transition: 500ms ease-in;
-}
-
-.social__lista-item:hover {
-  background-color: var(--dourado);
-  border-radius: 25%;
-  padding: 1em;
 }
 
 .social__lista-link img {
